@@ -16,43 +16,41 @@
 	<body>
 		<header class="header">
 			<div class="header__container container">
+				<nav class="navigation">
+					<button class="burger navigation__burger">
+						<span class="burger__item"></span>
+					</button>
+					<ul class="navigation__list navigation-list">
+						<li class="navigation-list__item">
+							<a class="navigation-list__link" href="index.html">
+								<span class="navigation-list__label">Home</span>
+							</a>
+						</li>
+						<li class="navigation-list__item">
+							<a class="navigation-list__link" href="play-page.html">
+								<span class="navigation-list__label">Play</span>
+							</a>
+						</li>
+						<li class="navigation-list__item">
+							<a class="navigation-list__link" href="about-page.html">
+								<span class="navigation-list__label">Our mission</span>
+							</a>
+						</li>
+						<li class="navigation-list__item">
+							<a class="navigation-list__link" href="contacts-page.html">
+								<span class="navigation-list__label">Contacts</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
 				<a class="header__logo logo" href="index.html"><img class="logo__image" src="assets/images/logo.svg" alt="logo"></a>
-				<div class="header__wrap">
-					<nav class="navigation">
-						<button class="burger navigation__burger">
-							<span class="burger__item"></span>
-						</button>
-						<ul class="navigation__list navigation-list">
-							<li class="navigation-list__item">
-								<a class="navigation-list__link" href="index.html">
-									<span class="navigation-list__label">Home</span>
-								</a>
-							</li>
-							<li class="navigation-list__item">
-								<a class="navigation-list__link" href="play-page.html">
-									<span class="navigation-list__label">Play</span>
-								</a>
-							</li>
-							<li class="navigation-list__item">
-								<a class="navigation-list__link" href="about-page.html">
-									<span class="navigation-list__label">Our mission</span>
-								</a>
-							</li>
-							<li class="navigation-list__item">
-								<a class="navigation-list__link" href="contacts-page.html">
-									<span class="navigation-list__label">Contacts</span>
-								</a>
-							</li>
-						</ul>
-					</nav>
-					<div class="header__buttons">
-						<button class="button header__button" data-open-modal="login">
-							<span class="button__label">Login</span>
-						</button>
-						<button class="button header__button" data-open-modal="register">
-							<span class="button__label">Sign up</span>
-						</button>
-					</div>
+				<div class="header__buttons">
+					<button class="button header__button" data-open-modal="login">
+						<span class="button__label">Login</span>
+					</button>
+					<button class="button header__button" data-open-modal="register">
+						<span class="button__label">Sign up</span>
+					</button>
 				</div>
 			</div>
 		</header>
@@ -142,49 +140,71 @@
 		</MAIN>
 		<footer class="footer">
 			<div class="container">
-				<div class="footer__wrap">
-					<ul class="footer__info info">
-						<li class="info__item">
-							<h6 class="info__title">
-								<span class="info__label">Free Social Online Casino</span>
-							</h6>
-							<p class="info__text">
-								<span class="info__label">Get Achievements, Invite Friends And Play Online For Free</span>
+				<div class="footer__container">
+					<div class="footer__info footer-info">
+						<div class="footer-info__item">
+							<h4 class="footer-info__title">
+								<span class="footer-info__label">FREE SOCIAL ONLINE CASINO</span>
+							</h4>
+							<p class="footer-info__text">
+								<span class="footer-info__label">Get Achievements, Invite Friends And Play Online For Free</span>
 							</p>
+						</div>
+						<div class="footer-info__item">
+							<h4 class="footer-info__title">
+								<span class="footer-info__label">HIGH PERFORMANCE GRAPHICS</span>
+							</h4>
+							<p class="footer-info__text">
+								<span class="footer-info__label">All games optimized for mobile device, Mac OS, Windows, Linux. Register and enjoy our best casino games.</span>
+							</p>
+						</div>
+					</div>
+					<div class="footer__age age">
+						<span class="age__label">18+</span>
+					</div>
+				</div>
+				<div class="footer__container">
+					<ul class="social-list">
+						<li class="social-list__item">
+							<a class="social-list__link" href="https://www.android.com/" target="_blank">
+								<svg class="social-list__icon"><use xlink:href="assets/images/sprite.svg#icon_android"></use></svg>
+							</a>
 						</li>
-						<li class="info__item">
-							<h6 class="info__title">
-								<span class="info__label">HIGH PERFORMANCE GRAPHICS</span>
-							</h6>
-							<p class="info__text">
-								<span class="info__label">All games optimized for mobile device, Mac OS, Windows, Linux. Register and enjoy our best casino games.</span>
-							</p>
+						<li class="social-list__item">
+							<a class="social-list__link" href="https://www.apple.com/" target="_blank">
+								<svg class="social-list__icon"><use xlink:href="assets/images/sprite.svg#icon_ios"></use></svg>
+							</a>
+						</li>
+						<li class="social-list__item">
+							<a class="social-list__link" href="https://www.linux.com/" target="_blank">
+								<svg class="social-list__icon"><use xlink:href="assets/images/sprite.svg#icon_linux"></use></svg>
+							</a>
+						</li>
+						<li class="social-list__item">
+							<a class="social-list__link" href="https://www.microsoft.com/" target="_blank">
+								<svg class="social-list__icon"><use xlink:href="assets/images/sprite.svg#icon_windows"></use></svg>
+							</a>
 						</li>
 					</ul>
-					<span class="footer__age age">
-						<span class="age__label">18+</span>
-					</span>
-				</div>
-				<div class="footer__wrap">
-					<ul class="footer__social social-list">
+					<ul class="social-list">
 						<li class="social-list__item">
-							<a class="social-list__link" href="https://www.android.com/">
-								<svg class="social-list__icon social-list__icon--android"><use xlink:href="assets/images/sprite.svg#icon_android"></use></svg>
+							<a class="social-list__link" href="https://www.facebook.com/" target="_blank">
+								<svg class="social-list__icon"><use xlink:href="assets/images/sprite.svg#icon_fb"></use></svg>
 							</a>
 						</li>
 						<li class="social-list__item">
-							<a class="social-list__link" href="https://www.apple.com/">
-								<svg class="social-list__icon social-list__icon--ios"><use xlink:href="assets/images/sprite.svg#icon_ios"></use></svg>
+							<a class="social-list__link" href="https://play.google.com/" target="_blank">
+								<svg class="social-list__icon"><use xlink:href="assets/images/sprite.svg#icon_google"></use></svg>
 							</a>
 						</li>
 						<li class="social-list__item">
-							<a class="social-list__link" href="https://www.linux.com/">
-								<svg class="social-list__icon social-list__icon--linux"><use xlink:href="assets/images/sprite.svg#icon_linux"></use></svg>
+							<a class="social-list__link" href="https://www.apple.com/" target="_blank">
+								<svg class="social-list__icon"><use xlink:href="assets/images/sprite.svg#icon_apple"></use></svg>
 							</a>
 						</li>
 						<li class="social-list__item">
-							<a class="social-list__link" href="https://www.microsoft.com/">
-								<svg class="social-list__icon social-list__icon--windows"><use xlink:href="assets/images/sprite.svg#icon_windows"></use></svg>
+							<a class="social-list__link" href="https://www.instagram.com/" target="_blank">
+								<svg class="social-list__icon"><use xlink:href="assets/images/sprite.svg#icon_instagram"></use></svg>
 							</a>
 						</li>
 					</ul>
@@ -192,47 +212,23 @@
 			</div>
 			<div class="footer__bottom">
 				<div class="container footer__container">
-					<div class="footer__copyrgiht copyright">
-						<p class="copyright__text">
-							<span class="copyright__label">All Rights Reserved site.com © 2021</span>
-						</p>
-						<ul class="footer__nav footer-nav">
-							<li class="footer-nav__item">
-								<a class="footer-nav__link" href="privacy-policy.html">
-									<span class="footer-nav__label">Privacy Policy</span>
-								</a>
-							</li>
-							<li class="footer-nav__item">
-								<a class="footer-nav__link" href="terms-and-condition.html">
-									<span class="footer-nav__label">Terms &amp; Condition</span>
-								</a>
-							</li>
-							<li class="footer-nav__item">
-								<a class="footer-nav__link" href="cookies.html">
-									<span class="footer-nav__label">Cookies</span>
-								</a>
-							</li>
-						</ul>
+					<div class="footer__copyright copyright">
+						<span class="copyright__label">All Rights Reserved site.com © 2021</span>
 					</div>
-					<ul class="footer__social social-list">
-						<li class="social-list__item">
-							<a class="social-list__link" href="https://www.facebook.com/">
-								<svg class="social-list__icon social-list__icon--fb"><use xlink:href="assets/images/sprite.svg#icon_fb"></use></svg>
+					<ul class="footer__nav footer-nav">
+						<li class="footer-nav__item">
+							<a class="footer-nav__link" href="privacy-policy.html">
+								<span class="footer-nav__label">Privacy Policy</span>
 							</a>
 						</li>
-						<li class="social-list__item">
-							<a class="social-list__link" href="https://play.google.com/">
-								<svg class="social-list__icon social-list__icon--google"><use xlink:href="assets/images/sprite.svg#icon_google"></use></svg>
+						<li class="footer-nav__item">
+							<a class="footer-nav__link" href="terms-and-condition.html">
+								<span class="footer-nav__label">Terms &amp; Condition</span>
 							</a>
 						</li>
-						<li class="social-list__item">
-							<a class="social-list__link" href="https://www.apple.com/">
-								<svg class="social-list__icon social-list__icon--apple"><use xlink:href="assets/images/sprite.svg#icon_apple"></use></svg>
-							</a>
-						</li>
-						<li class="social-list__item">
-							<a class="social-list__link" href="https://www.instagram.com/">
-								<svg class="social-list__icon social-list__icon--instagram"><use xlink:href="assets/images/sprite.svg#icon_instagram"></use></svg>
+						<li class="footer-nav__item">
+							<a class="footer-nav__link" href="cookies.html">
+								<span class="footer-nav__label">Cookies</span>
 							</a>
 						</li>
 					</ul>
